@@ -1,6 +1,6 @@
 {
   "name": "vue-signaler",
-  "version": "1.0.0-beta",
+  "version": "1.1.0-beta",
   "main" : "dist/vue-singaler.umd.js",
   "module" : "dist/vue-singaler.es.js", 
   "author": "Rogue-Striker",
