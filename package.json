@@ -1,6 +1,6 @@
 {
   "name": "vbus",
-  "version": "0.0.0",
+  "version": "1.0.0-beta",
   "main" : "dist/vbus.umd.js",
   "module" : "dist/vbus.es.js", 
   "scripts": {
