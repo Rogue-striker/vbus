@@ -3,6 +3,8 @@
   "version": "1.0.0-beta",
   "main" : "dist/vbus.umd.js",
   "module" : "dist/vbus.es.js", 
+  "author": "Rogue-Striker",
+  "description": "Vue event bus for both Vue-2 and Vue-3",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
