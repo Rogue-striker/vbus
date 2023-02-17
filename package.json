@@ -1,5 +1,5 @@
 {
-  "name": "vbus",
+  "name": "vue-signaler",
   "version": "1.0.0-beta",
   "main" : "dist/vbus.umd.js",
   "module" : "dist/vbus.es.js", 
