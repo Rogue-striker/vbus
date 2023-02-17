@@ -8,7 +8,7 @@ export default defineConfig({
     lib: {
       entry: fileURLToPath(new URL("./src/index.js", import.meta.url)),
       name: "EventBus",
-      fileName: (format) => `vbus.${format}.js`,
+      fileName: (format) => `vue-singaler.${format}.js`,
     },
   },
 });
