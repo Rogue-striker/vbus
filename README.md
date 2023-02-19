@@ -1,6 +1,6 @@
 # vue-signaler
 
-A tiny eventbus library for vue irrespective of the version
+A tiny eventbus library for vue 3
 
 - It provides a plugin and composables for using event bus
 - just simply plug it with your vue and it will take care of everything
