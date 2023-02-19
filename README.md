@@ -12,16 +12,18 @@ npm i vue-signaler
 
 ## usage
 
-
 ###### To use the library in Vue 3
 
 In the main.js file, import the eventBus and use it as plugin
 
 ```vue
+<script>
+
 import { eventBus } from 'vue-signaler'
 
 app.use(eventBus)
 
+</script>
 ```
 
 In the components, we can access the eventBus using the composable
