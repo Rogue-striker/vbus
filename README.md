@@ -12,7 +12,7 @@ npm i vue-signaler
 
 ## usage
 
-###### To use the library in Vue 3
+##### To use the library in Vue 3
 
 In the main.js file, import the eventBus and use it as plugin
 
@@ -31,7 +31,7 @@ useEventBus
 
 ```vue
 <script>
-import {useEventBus} from 'vue-signaler'
+import { useEventBus } from 'vue-signaler'
 
 const { eventBus } = useEventBus();
 
