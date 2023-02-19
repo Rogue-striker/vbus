@@ -1,5 +1,6 @@
 import { inject } from "vue";
-export function useVue3EventBus() {
+
+export default function useEventBus() {
   const eventBus = inject("eventBus");
   return {
     eventBus,

@@ -1,35 +1,43 @@
-# vbus
+# vue-signaler
 
-This template should help get you started developing with Vue 3 in Vite.
+A tiny eventbus library for vue irrespective of the version
 
-## Recommended IDE Setup
+- It provides a plugin and composables for using event bus
+- just simply plug it with your vue and it will take care of everything
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
+## installation 
 ```sh
-npm install
+npm i vue-signaler
 ```
 
-### Compile and Hot-Reload for Development
+## usage
 
-```sh
-npm run dev
+
+###### To use the library in Vue 3
+
+In the main.js file, import the eventBus and use it as plugin
+
+```vue
+import { eventBus } from 'vue-signaler'
+
+app.use(eventBus)
+
 ```
 
-### Compile and Minify for Production
+In the components, we can access the eventBus using the composable
+useEventBus
 
-```sh
-npm run build
-```
+```vue
+<script>
+import {useEventBus} from 'vue-signaler'
 
-### Lint with [ESLint](https://eslint.org/)
+const { eventBus } = useEventBus();
 
-```sh
-npm run lint
+eventBus.on('eventName', (data)=>{
+  console.log(data)
+})
+
+eventBus.emit('eventName' , { name : 'rogue-striker' })
+
+</script>
 ```
