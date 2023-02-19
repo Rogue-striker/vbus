@@ -1,10 +1,10 @@
 {
   "name": "vue-signaler",
   "version": "1.0.0",
-  "main" : "dist/vue-singaler.umd.js",
-  "module" : "dist/vue-singaler.es.js", 
+  "main" : "dist/vue-signaler.umd.js",
+  "module" : "dist/vue-signaler.es.js", 
   "author": "Rogue-Striker",
-  "description": "Vue event bus for both Vue-2 and Vue-3",
+  "description": "Event bus for vue 3",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -12,8 +12,8 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
   "exports" :{
-    "main" : "./dist/vue-singaler.umd.js",
-    "module" : "./dist/vue-singaler.es.js"
+    "main" : "./dist/vue-signaler.umd.js",
+    "module" : "./dist/vue-signaler.es.js"
   },
   "repository": {
     "type": "git",

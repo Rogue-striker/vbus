@@ -4,6 +4,7 @@ A tiny eventbus library for vue 3
 
 - It provides a plugin and composables for using event bus
 - just simply plug it with your vue and it will take care of everything
+- it's only 300 bytes (gzip)
 
 ## installation 
 ```sh
