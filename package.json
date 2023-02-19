@@ -1,6 +1,6 @@
 {
   "name": "vue-signaler",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main" : "dist/vue-signaler.umd.js",
   "module" : "dist/vue-signaler.es.js", 
   "author": "Rogue-Striker",
@@ -29,5 +29,12 @@
     "vite": "^4.0.0",
     "vue": "^3.2.45"
   },
+  "keywords": [
+    "vue",
+    "vue3",
+    "vue3.0",
+    "event bus",
+    "vue-event-bus",
+  ],
   "license": "MIT"
 }
