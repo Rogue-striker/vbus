@@ -34,7 +34,7 @@
     "vue3",
     "vue3.0",
     "event bus",
-    "vue-event-bus",
+    "vue-event-bus"
   ],
   "license": "MIT"
 }
